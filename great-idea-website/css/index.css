@@ -26,12 +26,12 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: inline-block;
 }
 body {
 	line-height: 1;
 	padding: 50px;
-	width: 1200px;
+	width: 1000px;
 }
 ol, ul {
 	list-style: none;
@@ -80,32 +80,35 @@ header {
 }
 
 header nav {
-	margin: 25px 0 0 25px;
+	margin: 25px 0 0 22px;
 	height: 100px;
 	align-items: center;
 }
 
 header nav a:first-child {
-	margin: 25px 50px 10px 0;
+	margin: 25px 22px 0 0;
 }
 
 header nav a {
-	margin: 25px 50px;
+	margin: 25px 22px;
 	text-align: center;
 	color: grey;
 	text-decoration: none;
 }
 
 h1 {
-	font-size: 100px;
+	font-size: 75px;
+}
+
+.subheader {
+	width: 900px;
 }
 
 .box {
 	text-align: center;
 	justify-items: center;
-	width: 400px;
-	height: 500px;
-	margin: 100px 50px 10px 100px;
+	width: 300px;
+	margin: 50px 50px 100px 100px;
 }
 
 button {
@@ -116,22 +119,60 @@ button {
 }
 
 .code {
-	width: 500px;
-	margin: 0px 0px 10px 50px;
+	width: 400px;
 	float: right;
 }
 
 .bottom {
 	border-top: 2px solid black;
+	width: 900px;
 }
 
-.top-blurb {
-	display: inline-block;
-	width: 450px;
-	height: 200px;
-	margin: 25px 0 0 25px;
+.features {
+	width: 425px;
+	padding: 25px 0 0 0;
+}
+
+.about {
+	width: 425px;
+	padding: 25px 0 0 0;
+	float: right;
 }
 
 .middle-img {
 	width: 100%;
+	margin: 25px 0;
+}
+
+.services {
+	width: 280px;
+	margin: 0 0 25px 0;
+}
+
+.product {
+	width: 280px;
+	margin: 0 25px 25px 25px;
+}
+
+.vision {
+	width: 280px;
+	align: right;
+	margin: 0 0 25px 0;
+}
+
+footer {
+	border-top: 2px solid black;
+	height: 500px;
+	width: 900px;
+}
+
+.contact {
+	line-height: 1.25;
+	margin: 25px 0;
+}
+
+.copyright {
+	width: 900px;
+	height: 50px;
+	padding: 25px 0 25px 400px;
 }
