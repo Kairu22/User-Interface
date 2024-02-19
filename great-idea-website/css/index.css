@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	padding: 50px;
+	width: 1200px;
 }
 ol, ul {
 	list-style: none;
@@ -74,11 +76,11 @@ header {
 
 .logo {
 	float: right;
-	margin: 15px 250px 0 0;
+	margin: 15px 0 0 0;
 }
 
 header nav {
-	margin: 40px 0 0 25px;
+	margin: 25px 0 0 25px;
 	height: 100px;
 	align-items: center;
 }
@@ -96,10 +98,6 @@ header nav a {
 
 h1 {
 	font-size: 100px;
-}
-
-.subheader {
-	width: 1150px;
 }
 
 .box {
@@ -123,8 +121,8 @@ button {
 	float: right;
 }
 
-hr {
-	width: 1200px;
+.bottom {
+	border-top: 2px solid black;
 }
 
 .top-blurb {
@@ -135,5 +133,5 @@ hr {
 }
 
 .middle-img {
-	width: 100pw;
+	width: 100%;
 }
